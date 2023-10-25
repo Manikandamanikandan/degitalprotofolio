@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMANI</title>
+</head>
+<style>
+    body{
+    background-image: url("image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.my{
+    display: flex;
+    padding: 20px;
+    
+    color: azure;
+}
+.flex{
+    display: flex;
+}
+.flex > div {
+    margin: 10px;
+    padding: 20px;
+    padding-left: 50px;
+    margin-left: 100
+    px;
+}
+.text  {
+    color: azure;
+
+}
+.text1  {
+    color: azure;
+}
+.text2  {
+    color: azure;
+}
+.text3  {
+    
+    color: azure;
+    
+
+}
+.dropbtn {
+    background-color: #00Aa6d;
+    color: azure;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: azure;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0.,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e3e;
+}
+h1{
+    color: azure;
+    text-align: center;
+}
+.dropdown{
+    float: right;    
+}
+p{
+    color:gold;
+    text-align: justify;
+}
+
+.dropbtn {
+    background-color: #04AA6d;
+    color: azure;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: azure;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown1:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown1:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+button{
+    align-items: center;
+}
+#demo{
+    text-align: center;
+    
+}
+</style>
+<body>
+    <h1>WELCOME ALL</h1>
+    <div class="dropdown">
+     <button
+     class="dropbtn">HOME</button>
+     <div class="dropdown-content">
+        <a href="subject.html">SUBJECT</a>
+    </div>
+    </div>
+    <div class="dropdown1">
+        <button
+        class="dropbtn">ITS ME</button>
+        <div class="dropdown-content">
+           <a href="MY DETAILS.html">ABOUT ME</a>
+        </div>
+    </div>
+    <p>A front-end developer course that focuses on <span style="color: azure;">HTML</span> <span style="color: azure;">CSS</span>
+         and<span style="color: azure;">JAVASCRIPT</span>  is an excellent place to start for anyone interested in web development. However, it is also essential to keep learning and exploring front-end frameworks.
+        </p>
+       <center> <p id="demo"><span style="background-color: black;"> PROJECT FOR NAANMUDHALVAN</span></p></center>
+        <script>
+            function myFunction() {
+                document.getElementById("demo").style.fontSize="25px";
+                document.getElementById("demo").style.color = "navajowhite";
+                
+            }
+        </script>
+        <center>   <button type="button"
+           onclick="myFunction()">CILCKME!</button></center>
+           
+    
+</body>
+</html>
